@@ -22,9 +22,6 @@
 <p><input type="submit" value="Рассчитать" name="calculation"></p>
 </form>
 <?php 
-if (isset($_POST['calculation']))
-calculation();
-
 function calculation(){
 $arr = array(
 array($_POST['ImputOn'], $_POST['ImputTw'], $_POST['ImputThree']),
